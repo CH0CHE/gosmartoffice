@@ -6,6 +6,7 @@ import { Form, useFormContext } from '@components/common/form/Form.js';
 import { PasswordField } from '@components/common/form/PasswordField.js';
 import { Button } from '@components/common/ui/Button.js';
 import { LockKeyhole, Mail } from 'lucide-react';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 
 interface LoginFormProps {
   authUrl: string;
@@ -19,7 +20,7 @@ const SubmitButton: React.FC = () => {
   return (
     <div className="form-submit-button flex border-t border-border mt-4 pt-4 justify-between">
       <Button type="submit" size="lg" isLoading={isSubmitting}>
-        SIGN IN
+        {_('SIGN IN')}
       </Button>
     </div>
   );
@@ -82,12 +83,12 @@ export default function LoginForm({ authUrl, dashboardUrl }: LoginFormProps) {
                 default: (
                   <EmailField
                     prefixIcon={<Mail className="h-5 w-5" />}
-                    label="Email"
+                    label={_('Email')}
                     name="email"
-                    placeholder="Email"
+                    placeholder={_('Email')}
                     required
                     validation={{
-                      required: 'Email is required'
+                      required: _('Email is required')
                     }}
                   />
                 )
@@ -99,12 +100,12 @@ export default function LoginForm({ authUrl, dashboardUrl }: LoginFormProps) {
                 default: (
                   <PasswordField
                     prefixIcon={<LockKeyhole className="h-5 w-5" />}
-                    label="Password"
+                    label={_('Password')}
                     name="password"
-                    placeholder="Password"
+                    placeholder={_('Password')}
                     required
                     validation={{
-                      required: 'Password is required'
+                      required: _('Password is required')
                     }}
                     showToggle
                   />

@@ -3,60 +3,78 @@ Order, Pedido
 Sku, SKU
 Continue to shipping, Continuar al envío
 Continue shopping, Seguir comprando
-Continue Shopping, Seguir Comprando
+Continue Shopping, Seguir comprando
 CONTINUE SHOPPING, SEGUIR COMPRANDO
 Shopping cart, Carrito de compras
+Shopping Cart, Carrito de compras
 Product, Producto
 Price, Precio
 Quantity, Cantidad
 Remove, Eliminar
-Qty, Cant
+Qty, Cant.
 Sub total, Subtotal
-Discount($coupon), Descuento($cupón)
+Discount($coupon), Descuento ($cupón)
 Order summary, Resumen del pedido
-Taxes and shipping calculated at checkout, Impuestos y envío calculados al finalizar la compra
+Taxes and shipping calculated at checkout, Impuestos y envío calculados al finalizar
 CHECKOUT, FINALIZAR COMPRA
 Change, Cambiar
 Payment Method, Método de pago
 Shipping Address, Dirección de envío
 Shipping Method, Método de envío
 No payment methods available, No hay métodos de pago disponibles
+No payment method available, No hay métodos de pago disponibles
 Place Order, Realizar pedido
+Placing Order..., Realizando pedido...
+Order Placed, Pedido realizado
 My billing address is same as shipping address, Mi dirección de facturación es la misma que la de envío
 $count items, $count artículos
 Discount, Descuento
 Shipping, Envío
 No tax, Sin impuestos
 Tax, Impuesto
-Sorry, there is no available method for your address, Lo sentimos, no hay un método disponible para su dirección
-Please enter a shipping address in order to see shipping quotes, Por favor ingrese una dirección de envío para ver presupuestos de envío
+Sorry, there is no available method for your address, No hay métodos de envío disponibles para tu dirección
+Please enter a shipping address in order to see shipping quotes, Ingresa una dirección de envío para ver las opciones disponibles
 Continue to payment, Continuar al pago
-No payment method available, No hay métodos de pago disponibles
 Ship to, Enviar a
 Shipment, Envío
 Thank you $name!, ¡Gracias $name!
 Contact information, Información de contacto
 Order #$orderNumber, Pedido #$orderNumber
-ADD TO CART, AÑADIR AL CARRITO
-Please select variant options, Por favor selecciona opciones de variante
+ADD TO CART, AGREGAR AL CARRITO
+Please select variant options, Por favor selecciona las opciones del producto
 VIEW CART ($count), VER CARRITO ($count)
-JUST ADDED TO YOUR CART, ACABA DE AÑADIR A SU CARRITO
-Promotion code?, ¿Código de promoción?
-Enter coupon code, Ingrese código de cupón
+JUST ADDED TO YOUR CART, AGREGADO A TU CARRITO
+Promotion code?, ¿Tienes un código de descuento?
+Enter coupon code, Ingresar código de descuento
 Apply, Aplicar
-Your cart is empty!, ¡Su carrito está vacío!
+Your cart is empty!, ¡Tu carrito está vacío!
 Full name, Nombre completo
 Telephone, Teléfono
 Address, Dirección
-City, Ciudad
+City, Municipio
 Country, País
 Postcode, Código postal
-Inclusive of tax, Impuestos incluidos
-Sorry, there is no available method for your address, Lo sentimos, no hay un método disponible para su dirección
-Full name is required, Se requiere el nombre completo
-Telephone is required, Se requiere el teléfono
-Address is required, Se requiere la dirección
-City is required, Se requiere la ciudad
-Country is required, Se requiere el país
-Postcode is required, Se requiere el código postal
+Province, Departamento
+Inclusive of tax, Impuesto incluido
+Full name is required, El nombre completo es requerido
+Telephone is required, El teléfono es requerido
+Address is required, La dirección es requerida
+City is required, El municipio es requerido
+Country is required, El país es requerido
+Postcode is required, El código postal es requerido
+Province is required, El departamento es requerido
 Contact, Contacto
+No shipping required, No requiere envío
+Billing Address, Dirección de facturación
+Payment, Pago
+Shipping note, Nota de envío
+Add a note to your order, Agrega una nota a tu pedido
+Failed to place order. Please try again., No se pudo realizar el pedido. Por favor intenta de nuevo.
+Edit Shipping Method, Editar método de envío
+Add Shipping Method, Agregar método de envío
+Edit Zone, Editar zona
+Edit Shipping Zone, Editar zona de envío
+Cash on Delivery, Pago contra entrega
+Add address, Agregar dirección
+Save address, Guardar dirección
+Conveniently pay with cash at your doorstep when your order is delivered., Paga cómodamente en efectivo cuando recibas tu pedido en la puerta de tu casa.

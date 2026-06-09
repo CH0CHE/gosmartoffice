@@ -1,0 +1,184 @@
+{
+  "shop": {
+    "language": "es",
+    "timezone": "America/Guatemala",
+    "currency": "GTQ",
+    "weightUnit": "kg",
+    "homeUrl": "http://localhost:3000"
+  },
+  "system": {
+    "file_storage": "local",
+    "admin_collection_size": 20,
+    "upload_allowed_mime_types": [
+      "image/jpeg",
+      "image/png",
+      "image/gif",
+      "image/webp",
+      "image/avif"
+    ],
+    "session": {
+      "maxAge": 86400000,
+      "resave": false,
+      "saveUninitialized": false,
+      "cookieSecret": "gosmartoffice-secret-change-in-production",
+      "cookieName": "sid",
+      "adminCookieName": "admin-sid"
+    },
+    "notification_emails": {
+      "from": "noreply@gosmartoffice.com",
+      "order_confirmation": {
+        "enabled": true,
+        "templatePath": null
+      },
+      "customer_welcome": {
+        "enabled": true,
+        "templatePath": null
+      },
+      "reset_password": {
+        "enabled": true,
+        "templatePath": null
+      }
+    }
+  },
+  "catalog": {
+    "collectionPageSize": 12,
+    "product": {
+      "image": {
+        "width": 1200,
+        "height": 1200
+      }
+    },
+    "showOutOfStockProduct": false
+  },
+  "checkout": {
+    "showShippingNote": true
+  },
+  "pricing": {
+    "rounding": "round",
+    "precision": 2,
+    "tax": {
+      "rounding": "round",
+      "precision": 2,
+      "round_level": "total",
+      "price_including_tax": false
+    }
+  },
+  "themeConfig": {
+    "logo": {
+      "alt": "GoSmartOffice",
+      "src": "/logo.png",
+      "width": 200,
+      "height": 50
+    },
+    "headTags": {
+      "links": [
+        { "rel": "icon", "href": "/favicon.ico", "type": "image/x-icon" }
+      ],
+      "metas": [
+        { "name": "viewport", "content": "width=device-width, initial-scale=1" },
+        { "name": "description", "content": "Tienda en línea GoSmartOffice" }
+      ],
+      "scripts": [],
+      "bases": [
+        { "href": "/" }
+      ]
+    },
+    "copyRight": "© 2026 GoSmartOffice. Todos los derechos reservados."
+  },
+  "oms": {
+    "order": {
+      "paymentStatus": {
+        "pending": {
+          "name": "Pendiente",
+          "badge": "default",
+          "isDefault": true
+        },
+        "paid": {
+          "name": "Pagado",
+          "badge": "success"
+        },
+        "failed": {
+          "name": "Fallido",
+          "badge": "critical"
+        }
+      },
+      "shipmentStatus": {
+        "pending": {
+          "name": "Pendiente",
+          "badge": "default",
+          "isDefault": true
+        },
+        "processing": {
+          "name": "En proceso",
+          "badge": "attention"
+        },
+        "shipped": {
+          "name": "Enviado",
+          "badge": "attention"
+        },
+        "delivered": {
+          "name": "Entregado",
+          "badge": "success"
+        }
+      },
+      "status": {
+        "new": {
+          "name": "Nuevo",
+          "badge": "default",
+          "isDefault": true,
+          "next": ["processing", "canceled"]
+        },
+        "processing": {
+          "name": "En proceso",
+          "badge": "default",
+          "next": ["completed", "canceled"]
+        },
+        "completed": {
+          "name": "Completado",
+          "badge": "success",
+          "next": ["closed"]
+        },
+        "canceled": {
+          "name": "Cancelado",
+          "badge": "critical",
+          "next": []
+        },
+        "closed": {
+          "name": "Cerrado",
+          "badge": "default",
+          "next": []
+        }
+      },
+      "psoMapping": {
+        "pending:pending": "new",
+        "pending:*": "processing",
+        "paid:*": "processing",
+        "paid:delivered": "completed",
+        "canceled:*": "processing",
+        "canceled:canceled": "canceled"
+      },
+      "reStockAfterCancellation": true
+    },
+    "carriers": {
+      "default": {
+        "name": "Transportista"
+      },
+      "guatex": {
+        "name": "Guatex",
+        "trackingUrl": "https://www.guatex.com.gt/rastreo?numero={trackingNumber}"
+      },
+      "cargo_express": {
+        "name": "Cargo Exprés",
+        "trackingUrl": "https://www.cargoexpress.com.gt/rastreo?guia={trackingNumber}"
+      },
+      "fedex": {
+        "name": "FedEx",
+        "trackingUrl": "https://www.fedex.com/fedextrack/?trknbr={trackingNumber}"
+      },
+      "dhl": {
+        "name": "DHL",
+        "trackingUrl": "https://www.dhl.com/gt-es/home/rastreo.html?tracking-id={trackingNumber}"
+      }
+    }
+  }
+}

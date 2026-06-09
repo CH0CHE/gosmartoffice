@@ -11,6 +11,7 @@ import {
   DialogTitle,
   DialogTrigger
 } from '@components/common/ui/Dialog.js';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
@@ -43,18 +44,18 @@ export default function AddTrackingButton({
         <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
           <DialogTrigger>
             <Button
-              title="Edit Tracking Info"
+              title={_('Edit Tracking Info')}
               variant="outline"
               onClick={() => {
                 setDialogOpen(true);
               }}
             >
-              Edit Tracking Info
+              {_('Edit Tracking Info')}
             </Button>
           </DialogTrigger>
           <DialogContent>
             <DialogHeader>
-              <DialogTitle>Edit Tracking Info</DialogTitle>
+              <DialogTitle>{_('Edit Tracking Info')}</DialogTitle>
             </DialogHeader>
             <Form
               form={form}
@@ -71,24 +72,24 @@ export default function AddTrackingButton({
                   <InputField
                     type="text"
                     name="tracking_number"
-                    label="Tracking number"
-                    placeholder="Tracking number"
+                    label={_('Tracking number')}
+                    placeholder={_('Tracking number')}
                     defaultValue={shipment.trackingNumber || ''}
                     required
                     validation={{
-                      required: 'Tracking number is required'
+                      required: _('Tracking number is required')
                     }}
                   />
                 </div>
                 <div>
                   <SelectField
                     name="carrier"
-                    label="Carrier"
+                    label={_('Carrier')}
                     defaultValue={shipment.carrier || ''}
                     required
                     options={carriers}
                     validation={{
-                      required: 'Carrier is required'
+                      required: _('Carrier is required')
                     }}
                   />
                 </div>
@@ -100,17 +101,17 @@ export default function AddTrackingButton({
             <DialogFooter>
               <DialogClose>
                 <Button
-                  title="Cancel"
+                  title={_('Cancel')}
                   variant="outline"
                   onClick={() => {
                     setDialogOpen(false);
                   }}
                 >
-                  Cancel
+                  {_('Cancel')}
                 </Button>
               </DialogClose>
               <Button
-                title="Save"
+                title={_('Save')}
                 variant="default"
                 isLoading={form.formState.isSubmitting}
                 onClick={async () => {
@@ -123,7 +124,7 @@ export default function AddTrackingButton({
                   );
                 }}
               >
-                Save
+                {_('Save')}
               </Button>
             </DialogFooter>
           </DialogContent>

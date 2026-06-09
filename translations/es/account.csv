@@ -1,7 +1,9 @@
 Login, Iniciar sesión
 Logout, Cerrar sesión
 Email, Correo electrónico
+Email is required, El correo electrónico es requerido
 Password, Contraseña
+Password is required, La contraseña es requerida
 Forgot your password?, ¿Olvidaste tu contraseña?
 Create an account, Crear una cuenta
 Register, Registrarse
@@ -9,25 +11,58 @@ Full Name, Nombre completo
 Full name, Nombre completo
 SIGN IN, INICIAR SESIÓN
 Order History, Historial de pedidos
+Recent Orders, Pedidos recientes
 Account Details, Detalles de la cuenta
 You have not placed any orders yet, Aún no has realizado ningún pedido
 My Account, Mi cuenta
 Already have an account?, ¿Ya tienes una cuenta?
 Contact information, Información de contacto
-City, Ciudad
+City, Municipio
 Account Information, Información de la cuenta
+Account information, Información de la cuenta
 Address, Dirección
 Postcode, Código postal
-Postcode is required, El código postal es obligatorio
-Telephone is required, El número de teléfono es obligatorio
+Postcode is required, El código postal es requerido
+Telephone is required, El teléfono es requerido
 Telephone, Teléfono
-Full name is required, El nombre completo es obligatorio
-Country is required, El país es obligatorio
+Full name is required, El nombre completo es requerido
+Country is required, El país es requerido
 Country, País
-Province is required, La provincia es obligatoria
-Province, Provincia
+Province is required, El departamento es requerido
+Province, Departamento
 Billing Address, Dirección de facturación
 Shipping Address, Dirección de envío
 Create A New Account, Crear una nueva cuenta
 Contact, Contacto
 Customer information, Información del cliente
+Address Book, Libreta de direcciones
+Welcome Back!, ¡Bienvenido de nuevo!
+Please sign in to your account, Por favor inicia sesión en tu cuenta
+Join us for exclusive offers and order tracking, Únete para ofertas exclusivas y seguimiento de pedidos
+Your password has been updated successfully., Tu contraseña ha sido actualizada exitosamente.
+Go to Login, Ir a iniciar sesión
+Enter your new password, Ingresa tu nueva contraseña
+Password is required, La contraseña es requerida
+UPDATE PASSWORD, ACTUALIZAR CONTRASEÑA
+Reset Your Password, Restablecer tu contraseña
+Please enter your email to receive a reset link, Ingresa tu correo electrónico para recibir un enlace de restablecimiento
+Order #, Pedido #
+View order, Ver pedido
+Cancel order, Cancelar pedido
+Order status, Estado del pedido
+Payment status, Estado de pago
+Shipment status, Estado de envío
+New, Nuevo
+Processing, En proceso
+Completed, Completado
+Canceled, Cancelado
+Closed, Cerrado
+Pending, Pendiente
+Paid, Pagado
+Failed, Fallido
+Shipped, Enviado
+Delivered, Entregado
+Customer information, Información del cliente
+Email address, Correo electrónico
+Save, Guardar
+Cancel, Cancelar

@@ -1,6 +1,127 @@
 Featured collection, Colección destacada
-SHOP BY, Comprar por
+SHOP BY, Filtrar por
 Sort By, Ordenar por
 There is no product to display, No hay productos para mostrar
 ${count} products, ${count} productos
 Search results for "${keyword}", Resultados de búsqueda para "${keyword}"
+Add to cart, Agregar al carrito
+ADD TO CART, AGREGAR AL CARRITO
+View cart, Ver carrito
+VIEW CART ($count), VER CARRITO ($count)
+JUST ADDED TO YOUR CART, AGREGADO A TU CARRITO
+Please select variant options, Por favor selecciona las opciones del producto
+Out of stock, Agotado
+In stock, Disponible
+Product name is required, El nombre del producto es requerido
+SKU must be unique, El SKU debe ser único
+SKU, SKU
+Product Name, Nombre del producto
+Product name, Nombre del producto
+Price, Precio
+Weight, Peso
+Quantity, Cantidad
+Status, Estado
+Visibility, Visibilidad
+Description, Descripción
+Short description, Descripción corta
+Images, Imágenes
+Attributes, Atributos
+Variants, Variantes
+Inventory, Inventario
+Manage Stock, Gestionar inventario
+Stock Availability, Disponibilidad de stock
+Tax Class, Clase de impuesto
+URL key, URL amigable
+Meta title, Título meta
+Meta description, Descripción meta
+Meta keywords, Palabras clave meta
+Search engine optimize, Optimización para buscadores
+Category, Categoría
+Category Name, Nombre de categoría
+Category name, Nombre de categoría
+Parent Category, Categoría padre
+Select Parent Category, Seleccionar categoría padre
+Include in Store Menu?, ¿Mostrar en menú de la tienda?
+Show products?, ¿Mostrar productos?
+Is Required?, ¿Es requerido?
+Is Filterable?, ¿Es filtrable?
+Display on Frontend?, ¿Mostrar en la tienda?
+Sort Order, Orden de aparición
+Attribute Name, Nombre de atributo
+Attribute name, Nombre de atributo
+Attribute code, Código de atributo
+Attribute Code, Código de atributo
+Attribute Group, Grupo de atributo
+Option text, Texto de opción
+Select the list of attribute, Selecciona los atributos
+Select groups the attribute belongs to, Selecciona los grupos del atributo
+Add Products, Agregar productos
+Select Category, Seleccionar categoría
+Add Variant, Agregar variante
+Edit Variant, Editar variante
+Create a new group, Crear nuevo grupo
+Enter attribute name, Ingresar nombre de atributo
+Enter attribute code, Ingresar código de atributo
+Enter group name, Ingresar nombre de grupo
+Option text is required, El texto de la opción es requerido
+Attribute name is required, El nombre del atributo es requerido
+Attribute code is required, El código del atributo es requerido
+Type is required, El tipo es requerido
+Sort order is required, El orden es requerido
+Group name is required, El nombre del grupo es requerido
+Category name is required, El nombre de la categoría es requerido
+URL key is required, La URL amigable es requerida
+Meta title is required, El título meta es requerido
+Meta description is required, La descripción meta es requerida
+This field is required, Este campo es requerido
+Search, Buscar
+Search categories, Buscar categorías
+Search collections, Buscar colecciones
+Search products, Buscar productos
+Search attribute groups, Buscar grupos de atributos
+Number of products, Número de productos
+Number of products per row, Productos por fila
+You have no attribute groups to display, No tienes grupos de atributos
+You have no categories to display, No tienes categorías
+You have no collections to display, No tienes colecciones
+No products found for query "${inputValue}", No se encontraron productos para "${inputValue}"
+You have no products to display, No tienes productos para mostrar
+Collection, Colección
+Collections, Colecciones
+New folder, Nueva carpeta
+Clear all, Limpiar todo
+Clear categories, Limpiar categorías
+Previous slide, Diapositiva anterior
+Next slide, Diapositiva siguiente
+Close fullscreen view, Cerrar vista pantalla completa
+Adding..., Agregando...
+Add to Cart, Agregar al carrito
+SKU ${sku}, SKU ${sku}
+In Stock, En existencia
+Out of Stock, Agotado
+Show, Mostrar
+Limit, Límite
+Manage the inventory settings of the product., Gestiona el inventario del producto.
+Manage the SEO settings., Gestiona la configuración SEO.
+Manage the SEO settings of the category., Gestiona la configuración SEO de la categoría.
+Manage the status settings of the category., Gestiona el estado de la categoría.
+Set the status and visibility of the product., Define el estado y visibilidad del producto.
+Product Status, Estado del producto
+Disabled products will not be visible in the store and cannot be purchased., Los productos desactivados no serán visibles en la tienda y no podrán comprarse.
+Not visible individually, No visible individualmente
+Catalog\, Search, Catálogo\, Búsqueda
+Visibility determines where the product appears in the store., La visibilidad determina dónde aparece el producto en la tienda.
+URL key must be lowercase and can only contain letters\, numbers\, and hyphens, La URL debe estar en minúsculas y solo puede contener letras\, números y guiones
+URL key must be lowercase and can only contain alphanumeric characters and hyphens, La URL debe estar en minúsculas y solo puede contener caracteres alfanuméricos y guiones
+Enter URL key, Ingresar URL amigable
+Enter meta title, Ingresar título meta
+Enter meta description, Ingresar descripción meta
+There was an error fetching products., Ocurrió un error al cargar los productos.
+There was an error fetching categories., Ocurrió un error al cargar las categorías.
+No categories found for query "${inputValue}", No se encontraron categorías para "${inputValue}"
+No collections found for query "${inputValue}", No se encontraron colecciones para "${inputValue}"
+No attribute groups found for query "${inputValue}", No se encontraron grupos de atributos para "${inputValue}"
+There was an error fetching collections., Ocurrió un error al cargar las colecciones.
+There was an error fetching attribute groups., Ocurrió un error al cargar los grupos de atributos.
+Yes, Sí
+No, No

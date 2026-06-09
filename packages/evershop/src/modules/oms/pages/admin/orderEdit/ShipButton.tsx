@@ -4,6 +4,7 @@ import { SelectField } from '@components/common/form/SelectField.js';
 import { useAlertContext } from '@components/common/modal/Alert.js';
 import RenderIfTrue from '@components/common/RenderIfTrue.js';
 import { Button } from '@components/common/ui/Button.js';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import React from 'react';
 import { toast } from 'react-toastify';
 
@@ -32,7 +33,7 @@ export default function ShipButton({
   if (noShippingRequired) {
     return (
       <Button disabled variant="secondary">
-        No Shipping Required
+        {_('No Shipping Required')}
       </Button>
     );
   }
@@ -45,7 +46,7 @@ export default function ShipButton({
           variant="default"
           onClick={() => {
             openAlert({
-              heading: 'Ship Items',
+              heading: _('Ship Items'),
               content: (
                 <div>
                   <Form
@@ -61,7 +62,6 @@ export default function ShipButton({
                           payload: { secondaryAction: { isLoading: false } }
                         });
                       } else {
-                        // Reload the page
                         window.location.reload();
                       }
                     }}
@@ -77,14 +77,14 @@ export default function ShipButton({
                         <InputField
                           type="text"
                           name="tracking_number"
-                          label="Tracking number"
-                          placeholder="Tracking number"
+                          label={_('Tracking number')}
+                          placeholder={_('Tracking number')}
                         />
                       </div>
                       <div>
                         <SelectField
                           name="carrier"
-                          label="Carrier"
+                          label={_('Carrier')}
                           options={carriers}
                         />
                       </div>
@@ -93,12 +93,12 @@ export default function ShipButton({
                 </div>
               ),
               primaryAction: {
-                title: 'Cancel',
+                title: _('Cancel'),
                 onAction: closeAlert,
                 variant: 'outline'
               },
               secondaryAction: {
-                title: 'Ship',
+                title: _('Ship'),
                 onAction: () => {
                   dispatchAlert({
                     type: 'update',
@@ -116,7 +116,7 @@ export default function ShipButton({
             });
           }}
         >
-          Ship items
+          {_('Ship items')}
         </Button>
       </RenderIfTrue>
     );

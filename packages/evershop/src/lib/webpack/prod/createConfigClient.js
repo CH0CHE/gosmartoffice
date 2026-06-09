@@ -2,6 +2,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import WebpackBar from 'webpackbar';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import { getEnabledExtensions } from '../../../bin/extension/index.js';
 import { CONSTANTS } from '../../helpers.js';
 import { createBaseConfig } from '../createBaseConfig.js';
@@ -284,6 +285,16 @@ export function createConfigClient(routes) {
       }
     }
   };
+
+  if (process.env.ANALYZE === 'true') {
+    config.plugins.push(
+      new BundleAnalyzerPlugin({
+        analyzerMode: 'static',
+        reportFilename: path.resolve(CONSTANTS.ROOTPATH, 'bundle-report.html'),
+        openAnalyzer: false
+      })
+    );
+  }
 
   return config;
 }

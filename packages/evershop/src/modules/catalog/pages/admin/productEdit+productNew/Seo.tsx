@@ -8,6 +8,7 @@ import {
   CardHeader,
   CardTitle
 } from '@components/common/ui/Card.js';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import React from 'react';
 
 interface SEOProps {
@@ -27,16 +28,15 @@ export default function SEO({ product }: SEOProps) {
         default: (
           <InputField
             name="url_key"
-            label="URL Key"
-            placeholder="Enter URL Key"
+            label={_('URL key')}
+            placeholder={_('Enter URL key')}
             required
             defaultValue={product?.urlKey}
             validation={{
-              required: 'URL Key is required',
+              required: _('URL key is required'),
               pattern: {
                 value: /^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*$/,
-                message:
-                  'URL Key must be lowercase and can only contain letters, numbers, and hyphens'
+                message: _('URL key must be lowercase and can only contain letters, numbers, and hyphens')
               }
             }}
           />
@@ -49,12 +49,12 @@ export default function SEO({ product }: SEOProps) {
         default: (
           <InputField
             name="meta_title"
-            label="Meta Title"
-            placeholder="Enter Meta Title"
+            label={_('Meta title')}
+            placeholder={_('Enter meta title')}
             required
             defaultValue={product?.metaTitle}
             validation={{
-              required: 'Meta Title is required'
+              required: _('Meta title is required')
             }}
           />
         )
@@ -78,8 +78,8 @@ export default function SEO({ product }: SEOProps) {
         default: (
           <TextareaField
             name="meta_description"
-            label="Meta Description"
-            placeholder="Enter Meta Description"
+            label={_('Meta description')}
+            placeholder={_('Enter meta description')}
             defaultValue={product?.metaDescription || ''}
           />
         )
@@ -91,8 +91,8 @@ export default function SEO({ product }: SEOProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>SEO</CardTitle>
-        <CardDescription>Manage the SEO settings.</CardDescription>
+        <CardTitle>{_('Search engine optimize')}</CardTitle>
+        <CardDescription>{_('Manage the SEO settings.')}</CardDescription>
       </CardHeader>
       <CardContent>
         <Area

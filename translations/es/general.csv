@@ -1,7 +1,106 @@
-Discount ${discount} For All Orders Over ${price}, Descuento de ${discount} para todos los pedidos superiores a ${price}.
-Please select, Por favor, selecciona...
-The page you requested does not exist., La página que solicitaste no existe
-Continue shopping, Continuar comprando
+Discount ${discount} For All Orders Over ${price}, Descuento de ${discount} para todos los pedidos mayores a ${price}
+Please select, Por favor selecciona...
+The page you requested does not exist., La página que solicitaste no existe.
+Continue shopping, Seguir comprando
 404 Page Not Found, 404 Página no encontrada
 Home, Inicio
 Not found, No encontrado
+Error, Error
+Save, Guardar
+Cancel, Cancelar
+Delete, Eliminar
+Edit, Editar
+Create, Crear
+Add, Agregar
+Remove, Eliminar
+Update, Actualizar
+Back, Regresar
+Close, Cerrar
+Search, Buscar
+Loading..., Cargando...
+Submit, Enviar
+Confirm, Confirmar
+Yes, Sí
+No, No
+Settings, Configuración
+Dashboard, Panel principal
+Orders, Pedidos
+Products, Productos
+Categories, Categorías
+Customers, Clientes
+Promotions, Promociones
+Content, Contenido
+Tax, Impuesto
+Shipping, Envío
+Payment, Pago
+Actions, Acciones
+Status, Estado
+Active, Activo
+Inactive, Inactivo
+Enabled, Habilitado
+Disabled, Deshabilitado
+Required, Requerido
+Optional, Opcional
+Name, Nombre
+Description, Descripción
+Price, Precio
+Image, Imagen
+Date, Fecha
+Type, Tipo
+Code, Código
+Total, Total
+Subtotal, Subtotal
+Discount, Descuento
+None, Ninguno
+All, Todos
+Select, Seleccionar
+Upload, Subir
+Download, Descargar
+Preview, Vista previa
+View, Ver
+Print, Imprimir
+Export, Exportar
+Import, Importar
+Filter, Filtrar
+Sort, Ordenar
+Page, Página
+Next, Siguiente
+Previous, Anterior
+First, Primero
+Last, Último
+Of, de
+Items per page, Ítems por página
+No results found, No se encontraron resultados
+Something went wrong. Please try again., Algo salió mal. Por favor inténtalo de nuevo.
+Please wait..., Por favor espera...
+Saved successfully, Guardado exitosamente
+Deleted successfully, Eliminado exitosamente
+Are you sure you want to delete this item?, ¿Estás seguro de que deseas eliminar este ítem?
+Cancel Order, Cancelar pedido
+Reason for cancellation, Motivo de cancelación
+Reason is required, El motivo es requerido
+Submit Cancellation, Confirmar cancelación
+Edit Tracking Info, Editar información de seguimiento
+Tracking number, Número de seguimiento
+Tracking number is required, El número de seguimiento es requerido
+Carrier, Transportista
+Carrier is required, El transportista es requerido
+SIGN IN, INICIAR SESIÓN
+Email is required, El correo electrónico es requerido
+Password is required, La contraseña es requerida
+Manage the SEO settings of the product., Gestiona la configuración SEO del producto.
+Product Status, Estado del producto
+Inventory, Inventario
+Manage Stock, Gestionar inventario
+Stock Availability, Disponibilidad de inventario
+Quantity, Cantidad
+Status, Estado
+Visibility, Visibilidad
+Include in Store Menu?, ¿Incluir en el menú de la tienda?
+Show products?, ¿Mostrar productos?
+This field is required, Este campo es requerido
+Mark Delivered, Marcar como entregado
+No Shipping Required, Sin envío requerido
+Ship Items, Enviar artículos
+Ship items, Enviar artículos
+Ship, Enviar
