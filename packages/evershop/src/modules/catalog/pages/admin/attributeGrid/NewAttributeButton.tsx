@@ -1,5 +1,6 @@
 import { Button } from '@components/common/ui/Button.js';
 import React from 'react';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 
 interface NewAttributeButtonProps {
   newAttributeUrl: string;
@@ -9,7 +10,7 @@ export default function NewAttributeButton({
 }: NewAttributeButtonProps) {
   return (
     <Button onClick={() => (window.location.href = newAttributeUrl)}>
-      New Attribute
+      {_('New Attribute')}
     </Button>
   );
 }

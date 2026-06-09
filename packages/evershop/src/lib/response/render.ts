@@ -84,7 +84,7 @@ function renderDevelopment(
     json: true,
     isScriptContext: true
   });
-  const langCode = request.currentRoute?.isAdmin ? 'en' : language;
+  const langCode = language;
   const scriptPath = route.isAdmin ? '/backend/admin-main.js' : '/main.js';
   response.send(`
             <!doctype html><html lang="${langCode}">
@@ -102,7 +102,7 @@ function renderDevelopment(
 function renderProduction(request, response) {
   const language = getConfig('shop.language', 'en');
   const route = request.currentRoute;
-  const langCode = route.isAdmin === true ? 'en' : language;
+  const langCode = language;
   const serverIndexPath = path.resolve(
     getRouteBuildPath(route),
     'server',

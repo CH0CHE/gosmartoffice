@@ -7,6 +7,7 @@ import {
 } from '@components/common/ui/Card.js';
 import { Circle } from '@components/common/ui/Circle.js';
 import { Table, TableBody, TableRow } from '@components/common/ui/Table.js';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Name } from './items/Name.js';
@@ -21,7 +22,7 @@ export default function Items({ order: { items, shipmentStatus } }) {
           <div className="flex space-x-2">
             <Circle variant={shipmentStatus.badge || 'new'} />
             <span className="block self-center">
-              {shipmentStatus.name || 'Unknown'}
+              {shipmentStatus.name || _('Unknown')}
             </span>
           </div>
         </CardTitle>

@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle
 } from '@components/common/ui/Card.js';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import React from 'react';
 import { Zones } from './shippingSetting/Zones.js';
 
@@ -22,9 +23,9 @@ export default function ShippingSetting({
         <div className="col-span-4">
           <Card>
             <CardHeader>
-              <CardTitle>Shipping</CardTitle>
+              <CardTitle>{_('Shipping')}</CardTitle>
               <CardDescription>
-                Choose where you ship and how much you charge for shipping.
+                {_('Choose where you ship and how much you charge for shipping.')}
               </CardDescription>
             </CardHeader>
             <Zones createShippingZoneApi={createShippingZoneApi} />

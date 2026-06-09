@@ -104,3 +104,86 @@ No Shipping Required, Sin envío requerido
 Ship Items, Enviar artículos
 Ship items, Enviar artículos
 Ship, Enviar
+Catalog, Catálogo
+CMS, CMS
+Pages, Páginas
+Widgets, Widgets
+Customer, Cliente
+Sale, Ventas
+New Product, Nuevo producto
+General, General
+Manage the general information of the attribute., Gestiona la información general del atributo.
+Manage the setting of the attribute., Gestiona la configuración del atributo.
+Attribute code is used in API and must be unique, El código del atributo se usa en la API y debe ser único
+Text, Texto
+Multiselect, Selección múltiple
+Textarea, Área de texto
+Add option, Agregar opción
+Editing ${name}, Editando ${name}
+Create a new attribute, Crear nuevo atributo
+Can't be undone, Esta acción no se puede deshacer
+Clear Filters, Limpiar filtros
+Clear filters, Limpiar filtros
+Groups, Grupos
+There is no attribute to display, No hay atributos para mostrar
+New Attribute, Nuevo atributo
+Change, Cambiar
+Unlink, Desvincular
+Parent category, Categoría padre
+Enter Category Name, Ingresar nombre de categoría
+Manage the general information of the category., Gestiona la información general de la categoría.
+Category Image, Imagen de categoría
+Upload an image for the category., Sube una imagen para la categoría.
+Create a new category, Crear nueva categoría
+Include In Menu, Incluido en menú
+There is no category to display, No hay categorías para mostrar
+New Category, Nueva categoría
+Unassign, Desasignar
+General Information, Información general
+Manage the general information of the product., Gestiona la información general del producto.
+Enter product name, Ingresar nombre del producto
+Enter SKU, Ingresar SKU
+Enter price, Ingresar precio
+Create a new product, Crear nuevo producto
+Hello ${name}, Hola ${name}
+Logout, Cerrar sesión
+Logout failed, Error al cerrar sesión
+Shipping Setting, Configuración de envío
+Where you ship\, shipping methods and delivery fee, Zonas de envío\, métodos y tarifas
+Choose where you ship and how much you charge for shipping., Elige dónde envías y cuánto cobras por el envío.
+Error loading zones, Error al cargar las zonas
+No zones found, No se encontraron zonas
+Create New Zone, Crear nueva zona
+Back To Dashboard, Volver al panel
+Search for products\, order and other resources, Buscar productos\, pedidos y otros recursos
+No results for "${keyword}", Sin resultados para «${keyword}»
+Provide the basic information for the CMS page., Proporciona la información básica de la página CMS.
+Page Name, Nombre de página
+Enter page name, Ingresar nombre de página
+Page name is required, El nombre de la página es requerido
+This is the name of the CMS page that will be displayed in the admin panel., Este es el nombre de la página CMS que se mostrará en el panel de administración.
+Enable this page to make it visible on the frontend., Activa esta página para hacerla visible en la tienda.
+Cms Pages, Páginas CMS
+Customer Information, Información del cliente
+Guest Checkout, Compra como invitado
+Contact Information, Información de contacto
+Shipping Address, Dirección de envío
+No shipping required, Sin envío requerido
+Billing address, Dirección de facturación
+items, artículos
+Mark as shipped, Marcar como enviado
+Fullfill, Procesar
+orders, pedidos
+Are you sure you want to mark the selected orders as shipped?, ¿Estás seguro de que deseas marcar los pedidos seleccionados como enviados?
+Payment Status, Estado de pago
+Shipment Status, Estado de envío
+Order Number, Número de pedido
+Customer Email, Correo del cliente
+There is no order to display, No hay pedidos para mostrar
+Unknown, Desconocido
+Sort order must be a positive number, El orden debe ser un número positivo
+Payment Setting, Configuración de pago
+Configure the available payment methods, Configura los métodos de pago disponibles
+Store Setting, Configuración de la tienda
+Configure your store information, Configura la información de tu tienda
+Page Not Found, Página no encontrada

@@ -1,3 +1,4 @@
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import React, { useEffect, useState } from 'react';
 import './Image.scss';
 import { Image, ImageUploader } from '@components/admin/ImageUploader.js';
@@ -32,8 +33,8 @@ export default function Image({ category }: ImageProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Category Image</CardTitle>
-        <CardDescription>Upload an image for the category.</CardDescription>
+        <CardTitle>{_('Category Image')}</CardTitle>
+        <CardDescription>{_('Upload an image for the category.')}</CardDescription>
       </CardHeader>
       <CardContent>
         <ImageUploader

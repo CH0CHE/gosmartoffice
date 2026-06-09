@@ -1,3 +1,4 @@
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import React from 'react';
 
 interface CopyRightProps {
@@ -10,14 +11,14 @@ export default function CopyRight({
 }: CopyRightProps) {
   return (
     <div className="copyright">
-      <span>{copyRight}</span>
+      <span>{_(copyRight)}</span>
     </div>
   );
 }
 
 CopyRight.defaultProps = {
   themeConfig: {
-    copyRight: '© 2025 Evershop. All Rights Reserved.'
+    copyRight: '© 2026 GoSmartOffice. Todos los derechos reservados.'
   }
 };
 
