@@ -1,5 +1,6 @@
 import { Button } from '@components/common/ui/Button.js';
 import React from 'react';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 
 interface NewCouponButtonProps {
   newCouponUrl: string;
@@ -11,10 +12,10 @@ export default function NewCouponButton({
   return (
     <Button
       onClick={() => (window.location.href = newCouponUrl)}
-      title="New Coupon"
+      title={_("New Coupon")}
     >
       {' '}
-      New Coupon{' '}
+      {_("New Coupon")}{' '}
     </Button>
   );
 }

@@ -187,3 +187,30 @@ Configure the available payment methods, Configura los métodos de pago disponib
 Store Setting, Configuración de la tienda
 Configure your store information, Configura la información de tu tienda
 Page Not Found, Página no encontrada
+# Dashboard
+Sale Statistics, Estadísticas de ventas
+Overview of sales data over selected periods, Resumen de datos de ventas en períodos seleccionados
+Daily, Diario
+Weekly, Semanal
+Monthly, Mensual
+Lifetime Sales, Ventas totales
+Overview of total sales and order status over the lifetime of your, Resumen de ventas totales y estado de pedidos de tu tienda
+${orders} orders, ${orders} pedidos
+${total} lifetime sale, ${total} en ventas totales
+${completed_percentage}% of orders completed, ${completed_percentage}% de pedidos completados
+${cancelled_percentage}% of orders cancelled, ${cancelled_percentage}% de pedidos cancelados
+Best Sellers, Más vendidos
+A list of best selling products, Lista de productos más vendidos
+View All Products, Ver todos los productos
+Look like you just started. No bestsellers yet., Parece que estás comenzando. Aún no hay productos destacados.
+${soldQty} sold, ${soldQty} vendidos
+Best customers, Mejores clientes
+A list of customers who have placed the most orders, Lista de clientes con más pedidos
+View all customers, Ver todos los clientes
+Full name, Nombre completo
+# Menu
+Promotion, Promoción
+Coupons, Cupones
+Setting, Configuración
+Quick links, Accesos rápidos
+New Coupon, Nuevo cupón

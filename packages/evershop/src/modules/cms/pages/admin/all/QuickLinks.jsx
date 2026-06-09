@@ -2,17 +2,18 @@ import { NavigationItemGroup } from '@components/admin/NavigationItemGroup';
 import { HomeIcon } from 'lucide-react';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 
 export default function QuickLinks({ dashboard }) {
   return (
     <NavigationItemGroup
       id="quickLinks"
-      name="Quick links"
+      name={_("Quick links")}
       items={[
         {
           Icon: HomeIcon,
           url: dashboard,
-          title: 'Dashboard'
+          title: _("Dashboard")
         }
       ]}
     />

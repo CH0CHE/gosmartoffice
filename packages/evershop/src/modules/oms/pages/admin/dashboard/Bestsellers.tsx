@@ -8,6 +8,7 @@ import {
 } from '@components/common/ui/Card.js';
 import React from 'react';
 import './Bestsellers.scss';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 import { Image } from '@components/common/Image.js';
 import { ProductNoThumbnail } from '@components/common/ProductNoThumbnail.js';
 import {
@@ -42,11 +43,11 @@ export default function BestSellers({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Best Sellers</CardTitle>
-        <CardDescription>A list of best selling products</CardDescription>
+        <CardTitle>{_("Best Sellers")}</CardTitle>
+        <CardDescription>{_("A list of best selling products")}</CardDescription>
         <CardAction>
           <a href={listUrl} className="text-sm text-primary hover:underline">
-            View All Products
+            {_("View All Products")}
           </a>
         </CardAction>
       </CardHeader>
@@ -56,7 +57,7 @@ export default function BestSellers({
             {bestSellers.length === 0 && (
               <TableRow>
                 <TableCell align="left">
-                  Look like you just started. No bestsellers yet.
+                  {_("Look like you just started. No bestsellers yet.")}
                 </TableCell>
                 <TableCell> </TableCell>
               </TableRow>
@@ -92,7 +93,7 @@ export default function BestSellers({
                 </TableCell>
                 <TableCell />
                 <TableCell>{p.price.regular.text}</TableCell>
-                <TableCell>{p.soldQty} sold</TableCell>
+                <TableCell>{_("${soldQty} sold", {soldQty: String(p.soldQty)})}</TableCell>
               </TableRow>
             ))}
           </TableBody>

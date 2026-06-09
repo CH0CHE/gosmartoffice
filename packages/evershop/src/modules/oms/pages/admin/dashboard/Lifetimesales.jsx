@@ -10,6 +10,7 @@ import React from 'react';
 import { toast } from 'react-toastify';
 import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts';
 import './Lifetimesales.scss';
+import { _ } from '@evershop/evershop/lib/locale/translate/_';
 
 const COLORS = ['#aee9d1', '#fed3d1', '#a4e8f2'];
 
@@ -64,9 +65,9 @@ export default function LifetimeSale({ api }) {
 
   if (fetching) {
     return (
-      <Card title="Lifetime Sales">
+      <Card title={_("Lifetime Sales")}>
         <CardHeader>
-          <CardTitle>Lifetime Sales</CardTitle>
+          <CardTitle>{_("Lifetime Sales")}</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="skeleton-wrapper-lifetime">
@@ -85,33 +86,33 @@ export default function LifetimeSale({ api }) {
     );
   } else {
     return (
-      <Card title="Lifetime Sales">
+      <Card title={_("Lifetime Sales")}>
         <CardHeader>
-          <CardTitle>Lifetime Sales</CardTitle>
+          <CardTitle>{_("Lifetime Sales")}</CardTitle>
           <CardDescription>
-            Overview of total sales and order status over the lifetime of your
+            {_("Overview of total sales and order status over the lifetime of your")}
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 gap-2">
             <div className="flex space-x-2 items-center">
               <Dot variant="info" />
-              <div className="self-center">{orders} orders</div>
+              <div className="self-center">{_("${orders} orders", {orders: String(orders)})}</div>
             </div>
             <div className="flex space-x-2 items-center">
               <Dot variant="info" />
-              <div className="self-center">{total} lifetime sale</div>
+              <div className="self-center">{_("${total} lifetime sale", {total: String(total)})}</div>
             </div>
             <div className="flex space-x-2 items-center">
               <Dot variant="success" />
               <div className="self-center">
-                {completed_percentage}% of orders completed
+                {_("${completed_percentage}% of orders completed", {completed_percentage: String(completed_percentage)})}
               </div>
             </div>
             <div className="flex space-x-2 items-center">
               <Dot variant="critical" />
               <div className="self-center">
-                {cancelled_percentage}% of orders cancelled
+                {_("${cancelled_percentage}% of orders cancelled", {cancelled_percentage: String(cancelled_percentage)})}
               </div>
             </div>
           </div>
