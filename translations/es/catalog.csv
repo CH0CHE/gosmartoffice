@@ -3,7 +3,7 @@ SHOP BY, Filtrar por
 Sort By, Ordenar por
 There is no product to display, No hay productos para mostrar
 ${count} products, ${count} productos
-Search results for "${keyword}", Resultados de búsqueda para "${keyword}"
+Search results for "${keyword}", Resultados de búsqueda para «${keyword}»
 Add to cart, Agregar al carrito
 ADD TO CART, AGREGAR AL CARRITO
 View cart, Ver carrito
@@ -84,7 +84,7 @@ Number of products per row, Productos por fila
 You have no attribute groups to display, No tienes grupos de atributos
 You have no categories to display, No tienes categorías
 You have no collections to display, No tienes colecciones
-No products found for query "${inputValue}", No se encontraron productos para "${inputValue}"
+No products found for query "${inputValue}", No se encontraron productos para «${inputValue}»
 You have no products to display, No tienes productos para mostrar
 Collection, Colección
 Collections, Colecciones
@@ -118,9 +118,9 @@ Enter meta title, Ingresar título meta
 Enter meta description, Ingresar descripción meta
 There was an error fetching products., Ocurrió un error al cargar los productos.
 There was an error fetching categories., Ocurrió un error al cargar las categorías.
-No categories found for query "${inputValue}", No se encontraron categorías para "${inputValue}"
-No collections found for query "${inputValue}", No se encontraron colecciones para "${inputValue}"
-No attribute groups found for query "${inputValue}", No se encontraron grupos de atributos para "${inputValue}"
+No categories found for query "${inputValue}", No se encontraron categorías para «${inputValue}»
+No collections found for query "${inputValue}", No se encontraron colecciones para «${inputValue}»
+No attribute groups found for query "${inputValue}", No se encontraron grupos de atributos para «${inputValue}»
 There was an error fetching collections., Ocurrió un error al cargar las colecciones.
 There was an error fetching attribute groups., Ocurrió un error al cargar los grupos de atributos.
 Yes, Sí

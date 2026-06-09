@@ -15,7 +15,7 @@ export default async function TranslationLoader(c) {
     const newValue = csvData[template];
     // Check if the template is exist in the csvData
     if (newValue) {
-      result = result.replace(match[0], `_("${newValue}",${match[2] || null})`);
+      result = result.replace(match[0], `_("${newValue.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}",${match[2] || null})`);
     }
   }
   return result;

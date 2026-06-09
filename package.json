@@ -23,7 +23,7 @@
     "test": "ALLOW_CONFIG_MUTATIONS=true NODE_OPTIONS=--experimental-vm-modules node_modules/jest/bin/jest.js",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./packages",
     "prepare": "husky install",
-    "user:create": "node ./packages/evershop/dist/bin/user/index.js",
+    "user:create": "node ./packages/evershop/dist/bin/user/create.js",
     "db:seed:gt": "node ./seed/guatemala/setup-shipping.js",
     "analyze": "ANALYZE=true node ./packages/evershop/dist/bin/build/index.js"
   },
